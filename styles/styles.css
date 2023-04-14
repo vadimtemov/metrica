@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
-    background: #F5F5F5;
+    background: #787272;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -8,8 +12,52 @@ body {
     width: 1400px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 125px;
+    padding: 32.82px 125px 150px 125px;
     box-sizing: border-box;
+}
+
+.navSection {
+    width: 1160px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+
+.logoLink {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 553px;
+}
+
+.navLink {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navLink_end {
+    margin-right: 0px;
+}
+
+.navLink:hover {
+    color: #000000;
+    text-decoration: underline;
+    opacity: 0.5;
 }
 
 h1 {
@@ -71,6 +119,7 @@ h1 {
     letter-spacing: -0.03em;
     color: #000000;
     margin-bottom: 30px;
+    margin-left: 3px;
 }
 
 
@@ -88,16 +137,26 @@ h1 {
 }
 
 .residentialComplex {
-    margin-top: 15px;
+    margin-top: 13px;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.03em;
     color: #121212;
 }
 
+.moreOne {
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-bottom: 89px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+}
+
 .more {
     margin-top: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 89px;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
@@ -142,6 +201,7 @@ h1 {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     margin-bottom: 34px;
+    margin-left: 2px;
 }
 
 .servicesContainer {
@@ -155,10 +215,207 @@ h1 {
 }
 
 
-.serviceDescription {
+/* .serviceDescription {
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.03em;
     color: #ffffff;
-    margin-top: 15px;
+    margin-top: 13px;
+    margin-left: 3px;
+} */
+
+.serviceDescriptionLayout {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 13px;
+    margin-left: 3px;
 }
+
+.serviceDescriptionDesign {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 13px;
+    margin-left: 4px;
+}
+
+.serviceDescriptionSupervision {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.serviceDescriptionEquipment {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.fullScreenImage {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px;
+    background-image: url('/resources/interior\ bed.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.fullScreenImageText {
+    position: absolute;
+    width: 430px;
+    height: 82px;
+    left: 125px;
+    bottom: 60px;
+}
+
+.serviceDescriptionApartment {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.contactsWrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding-top: 186px;
+    padding-left: 124px;
+    padding-bottom: 150px;
+}
+
+.contactsWrapper::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 13px;
+    height: 22px;
+    top: 151px;
+    left: 125px;
+    background-image: url(/resources/phone.png);
+    background-size: contain;
+}
+
+.contacts {
+    width: 473px;
+    height: 217px;
+}
+
+.contactsText {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 32px;
+}
+
+.contactsTelWrapper {
+    margin-bottom: 30px;
+}
+
+.contactsTel {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contactsMail {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    opacity: 0.5;
+
+    text-decoration: none;
+    border-bottom: 2px solid #121212;
+    opacity: 0.5;
+}
+
+.footer {
+    width: 1400px;
+    background: #121212;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.contactsFooter {
+    width: 450px;
+    margin-left: 470px;
+    margin-bottom: 87px;
+}
+
+.box {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.boxContactsAboutUs {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.5;
+    text-decoration: none;
+    
+}
+
+.boxContacts {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boxContactsServices {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.boxContactsContacts {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.box:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.copyright {
+    color: #ffffff;
+    margin-left: 509px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    opacity: 0.5;
+}
+
