@@ -255,7 +255,7 @@ h1 {
     margin: 0 auto;
     width: 1400px;
     height: 717px;
-    background-image: url('.resources/interior\ bed.png');
+    background-image: url('resources/interior\ bed.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
