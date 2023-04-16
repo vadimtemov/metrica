@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Pages7</title>
+    <title>project7</title>
     <link rel="stylesheet" href="styles/reset.css">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,42 +13,42 @@
 </head>
 <body>
     <div class="container">
-        <div class="navSection">
+        <header class="navSection">
             <a class="logoLink" href="/">
-                <img class="logo" src="resources/Метрика.png" alt="здесь картинка">
+                <img class="logo" src="resources/Метрика.png" alt="Логотип">
             </a>
-            <div class="nav">
+            <nav class="nav">
                 <a href="#aboutUs" class="navLink">о нас</a>
                 <a href="#projects" class="navLink">проекты</a>
                 <a href="#services" class="navLink">услуги</a>
                 <a href="#contacts" class="navLink navLink_end">контакты</a>
-            </div>
-        </div>
+            </nav>
+        </header>
         <h1>Современные и стильные интерьеры для комфортной жизни</h1>
         <div class="InteriorArmchair">
             <div class="textInteriorArmchair">
                 <p class="weAreATeam">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
             </div>
         </div>
-        <p id="aboutUs" class="textDescription">о нас</p>
+        <h2 id="aboutUs" class="textDescription">о нас</h2>
         <h2 class="studioDescription">
             Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
         </h2>
         <a class="view-services" href="/">Посмотреть услуги</a>    
        
-        <p id="projects" class="textDescription">проекты</p>
+        <h2 id="projects" class="textDescription">проекты</h2>
         <div class="projectsInterior">
-            <img src="resources/interior sofa.png" alt="здесь картинка">
+            <img src="resources/interior sofa.png" alt="пример дизайна">
             <h3 class="residentialComplex">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
             <p class="moreOne">Подробнее →</p>
         </div>
         <div class="projectsInterior">
-            <img src="resources/interior tv.png" alt="здесь картинка">
+            <img src="resources/interior tv.png" alt="пример дизайна">
             <h3 class="residentialComplex">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
             <p class="more">Подробнее →</p>
         </div>
         <div class="projectsInterior">
-            <img src="resources/interior staircase.png" alt="здесь картинка">
+            <img src="resources/interior staircase.png" alt="пример дизайна">
             <h3 class="residentialComplex">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
             <p class="more">Подробнее →</p>
         </div>
@@ -58,21 +58,21 @@
     </div>
 
     <div id="services" class="listServices">
-        <p class="textServices">услуги</p>
+        <h2 class="textServices">услуги</h2>
         <div class="servicesContainer">
-            <img src="resources/drawing.png" alt="здесь картинка">
+            <img src="resources/drawing.png" alt="пример дизайна">
             <h3 class="serviceDescriptionLayout">Планировочное решение — от 2500₽/м²</h3>
         </div>
         <div class="servicesContainer">
-            <img src="resources/Color palette.png" alt="здесь картинка">
+            <img src="resources/Color palette.png" alt="пример дизайна">
             <h3 class="serviceDescriptionDesign">Дизайн-проект — от 3000₽/м²</h3>
         </div>
         <div class="servicesContainer">
-            <img src="resources/ruler.png" alt="здесь картинка">
+            <img src="resources/ruler.png" alt="пример дизайна">
             <h3 class="serviceDescriptionSupervision">Авторский надзор — от 30 000₽ в месяц</h3>
         </div>
         <div class="servicesContainer servicesContainer_end">
-            <img src="resources/warehouse with flights.png" alt="здесь картинка">
+            <img src="resources/warehouse with flights.png" alt="пример дизайна">
             <h3 class="serviceDescriptionEquipment">Комплектация — 5% от стоимости спецификации</h3>
         </div>
 
@@ -84,19 +84,19 @@
         </div>
     </div>
 
-    <div class="contactsWrapper">
+    <div id="contacts" class="contactsWrapper">
         <div class="contacts">
-            <p class="contactsText">контакты</p>
+            <h2 class="contactsText">контакты</h2>
             <p class="contactsTelWrapper">
-                <a class="contactsTel" href="tel:+">+7 935  895-45-35</a>
+                <a class="contactsTel" href="tel:+79358954535">+7 935  895-45-35</a>
             </p>
             <p>
-                <a class="contactsMail" href="mailto:">hello@mail.com</a>
+                <a class="contactsMail" href="mailto:hello@mail.com">hello@mail.com</a>
             </p>
         </div>
     </div>
 
-    <div class="footer">
+    <footer class="footer">
         <div class="contactsFooter">
             <p class="box">
                 <a class="boxContactsAboutUs" href="">о нас</a>
@@ -111,8 +111,9 @@
                 <a class="boxContactsContacts" href="">контакты</a>
             </p>
         </div>
-
-        <p class="copyright">студия дизайна интерьера Метрика — 2023</p>
-    </div>
+        
+        <a class="linkToLayout"  href="https://www.figma.com/file/ebAlLnpSYCJcmYOiRcLziH/%F0%9F%96%A5-SD-Code-%E2%80%94-%D0%9C%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2-(Copy)?node-id=16-2&t=V9Zsr3rKlAfRoYrg-0" target="_blank">студия дизайна интерьера Метрика — 2023</a>
+     
+    </footer>
 </body>
 </html>
