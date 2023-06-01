@@ -1,0 +1,183 @@
+.listServices {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1400px;
+    padding: 150.62px 123px 150px 125px; 
+    background-color: #121212;
+}
+
+.textServices {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 29.93px;
+    margin-left: 2px;
+}
+
+.listServicesWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.servicesContainer {
+    width: calc(50% - 10px);
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.imgDrawing {
+    height: 388px;
+    background-image: url('../resources/drawing.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.serviceDescriptionLayout {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 24.94px;
+    margin-left: 3px;
+}
+
+.imgColorPalette {
+    height: 388px;
+    background-image: url('../resources/Color\ palette.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.serviceDescriptionDesign {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 24.94px;
+    margin-left: 4px;
+}
+
+.imgRuler {
+    height: 388px;
+    background-image: url('../resources/ruler.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.serviceDescriptionSupervision {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 25.94px;
+    margin-left: 5px;
+}
+
+.imgWarehouseWithFlights {
+    height: 388px;
+    background-image: url('../resources/warehouse\ with\ flights.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.serviceDescriptionEquipment {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-top: 25.94px;
+    margin-left: 5px;
+}
+
+
+/* Цена за услуги */
+
+.boxPriceServiceDescriptionLayout  {
+    position: absolute;
+    margin-top: 31.51px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #AD1818;
+}
+
+.priceServiceDescriptionLayout {
+    margin: 5px 22px 5px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.boxPriceServiceDescriptionDesign {
+    position: absolute;
+    margin-top: 31.51px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #AD1818;
+}
+
+.priceServiceDescriptionDesign {
+    margin: 5px 22px 5px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.boxPriceServiceDescriptionSupervision {
+    position: absolute;
+    margin-top: 33.85px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #AD1818;
+}
+
+.priceServiceDescriptionSupervision {
+    margin: 5px 20px 5px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.boxPriceServiceDescriptionEquipment {
+    position: absolute;
+    margin-top: 33.85px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #AD1818;
+}
+
+.priceServiceDescriptionEquipment{
+    margin: 5px 21px 5px 21px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+/* Конец, цены за услуги */
+
+.orderService {
+    display: inline-block;
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-radius: 5px;
+    background-color: #AD1818;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-align: center;
+    
+}

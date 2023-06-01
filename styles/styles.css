@@ -1,3 +1,7 @@
+@import "/styles/header.css";
+@import "/styles/listServices.css";
+@import "/styles/footer.css";
+
 html{
     scroll-behavior: smooth;
 }
@@ -6,56 +10,6 @@ body {
     width: 100%;
     background: #f5f5f5;
     font-family: 'Manrope', sans-serif;
-}
-
-header {
-    width: 1400px;
-    margin: 0 auto;
-    background: #ffffff;
-    padding: 32.82px 125px 70px 125px;
-    box-sizing: border-box;
-}
-
-.navSection {
-    width: 1160px;
-    box-sizing: border-box;
-}
-
-.logoLink {
-    display: inline-block;
-}
-
-.logo {
-    display: block;
-    width: 126.89px;
-    height: 21.42px;
-}
-
-.nav {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 553px;
-}
-
-.navLink {
-    display: inline-block;
-    margin-right: 60px;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #121212;
-    text-decoration: none;
-    text-align: center;
-}
-
-.navLink_end {
-    margin-right: 0px;
-}
-
-.navLink:hover {
-    opacity: 0.5;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .whiteBackground {
@@ -207,71 +161,6 @@ h1 {
     color:#ffffff;
 }
 
-.listServices {
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 1400px;
-    padding: 151px 125px 206px 125px;
-    background-color: #121212;
-}
-
-.textServices {
-    color: #ffffff;
-    width: 66px;
-    height: 25px;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    margin-bottom: 34px;
-    margin-left: 2px;
-}
-
-.servicesContainer {
-    width: 1150px;
-    height: 270px;
-    margin-bottom: 116px;
-}
-
-.servicesContainer_end {
-    margin-bottom: 0px;
-}
-
-.serviceDescriptionLayout {
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-    margin-top: 13px;
-    margin-left: 3px;
-}
-
-.serviceDescriptionDesign {
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-    margin-top: 13px;
-    margin-left: 4px;
-}
-
-.serviceDescriptionSupervision {
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-    margin-top: 13px;
-    margin-left: 5px;
-}
-
-.serviceDescriptionEquipment {
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-    margin-top: 13px;
-    margin-left: 5px;
-}
 
 .fullScreenImage {
     position: relative;
@@ -360,107 +249,19 @@ h1 {
     opacity: 0.5;
 }
 
-.footer {
-    width: 1400px;
-    background: #121212;
-    margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-
-.contactsFooter {
-    width: 450px;
-    margin-left: 470px;
-    margin-bottom: 87px;
-}
-
-.box {
-    display: inline-block;
-    margin-right: 50px;
-}
-
-.boxContactsAboutUs {
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.boxContactsAboutUs:hover{
-    opacity: 0.5;
-}
-
-.boxContacts {
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.boxContacts:hover {
-    opacity: 0.5;
-}
-
-.boxContactsServices {
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 4px;
-}
-
-.boxContactsServices:hover {
-    opacity: 0.5;
-}
-
-.boxContactsContacts {
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 2px;
-}
-
-.boxContactsContacts:hover {
-    opacity: 0.5;
-}
-
-.box:nth-last-child(1) {
-    margin-right: 0;
-}
-
-.linkToLayout {
-    color: #ffffff;
-    margin-left: 509px;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    opacity: 0.5;
-    text-decoration: none;
-}
 
 /* Адаптив для планшета */
 
 @media (max-width: 960px) {
     .whiteBackground {
         width: 960px;
-        padding-left: 17px;
-        padding-right: 15px; 
+        padding: 0px 17px 100px 15px;
     }  
     
     h1 {
         width: 802px;
         height: 120px;
         font-size: 50px;
-
     }
 
     .InteriorArmchair {
@@ -480,7 +281,9 @@ h1 {
     }
 
     .imageSofa, .imageTv, .staircase {
+        width: 100%;
         height: 450px;
+        object-fit: cover;
     }
 
     .residentialComplex {
@@ -500,6 +303,59 @@ h1 {
         margin-left: 0px;
         margin-bottom: 80px;
     }
+
+    .more_end {
+        margin-bottom: 100px;
+    }
+
+    .seeProjectsText {
+        width: 100%;
+        padding: 56px 0px 56px 0px;   
+    }
+
+    /* listServices */
+
+    .listServices {
+        width: 960px;
+        padding: 151px 23px 120px 27px;
+    }
+
+    .servicesContainer {
+        margin-bottom: 80px;
+    }
+
+    .imgDrawing, .imgColorPalette, .imgRuler, .imgWarehouseWithFlights {
+        height: 315px;
+    }
+    
+    .priceServiceDescriptionLayout,
+    .priceServiceDescriptionDesign,
+    .priceServiceDescriptionSupervision,
+    .priceServiceDescriptionEquipment {
+        margin: 7px 26px 6px 27px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .boxPriceServiceDescriptionLayout, 
+    .boxPriceServiceDescriptionDesign, 
+    .boxPriceServiceDescriptionSupervision, 
+    .boxPriceServiceDescriptionEquipment {
+        margin-top: 31px;
+        margin-left: 32px;
+    }
+
+    .serviceDescriptionLayout, 
+    .serviceDescriptionDesign, 
+    .serviceDescriptionSupervision, 
+    .serviceDescriptionEquipment {
+        font-size: 25px;
+        line-height: 34px;
+        margin-top: 15px;
+    }
+
+    /* End listServices */
+
 }
 
 /* Адаптив для телефона */
@@ -508,8 +364,7 @@ h1 {
 
     .whiteBackground {
         width: 375px;
-        padding-left: 13px;
-        padding-right: 14px; 
+        padding: 0px 12px 80px 13px;
     }  
     
     h1 {
@@ -523,6 +378,7 @@ h1 {
     .InteriorArmchair {
         width: 100%;
         height: 304px;
+        background-image: url('../resources/interior\ armchair\ mobile.png');
         background-size: cover;
     }
 
@@ -540,6 +396,7 @@ h1 {
     }
 
     .textDescription {
+        height: 19px;
         margin-top: 80px;
         margin-bottom: 20px;
         font-size: 14px;
@@ -549,20 +406,33 @@ h1 {
     .studioDescription {
         width: 100%;
         height: 300px; 
+        margin-left: 0;
         font-size: 22px;
-        line-height: 30px;
-    }
-
-    .imageSofa, .imageTv, .staircase {
-        height: 250px;
+        line-height: 30px; 
     }
 
     .view-services {
         padding: 14.5px 27px;
         border-radius: 3.80172px;
-        gap: 10px;
+        gap: 7.6px;
         font-size: 16px;
         line-height: 22px;
+    }
+
+    .imageSofa, .imageTv, .staircase {
+        height: 250px;
+    }
+    
+    .imageSofa {
+        background-image: url('/resources/interior\ sofa\ mobile.png');
+    }
+
+    .imageTv {
+        background-image: url('/resources/interior\ tv\ mobile.png');
+    }
+
+    .staircase {
+        background-image: url('/resources/interior\ staircase\ mobile.png');
     }
 
     .interiorPicture {
@@ -591,13 +461,81 @@ h1 {
         font-size: 16px;
         line-height: 22px;
     }
+
+    .more_end {
+        margin-bottom: 60px;
+    }
     
     .seeProjectsText {
         width: 100%;
-        height: 25.86px;
+        border: 0.760343px solid #AD1818;
         border-radius: 3.80172px;
-        padding: 37px 0px 37.14px 0px;
+        padding: 37px 0px 37px 0px;
         font-size: 22px;
         line-height: 30px;   
     }
+
+    /* listServices */
+
+    .listServices {
+        width: 375px;
+        padding: 80px 15px 80px 21px; 
+    }
+
+    .listServicesWrapper{
+        display: block;
+    }
+
+    .servicesContainer {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .textServices {
+        font-size: 14px;
+        line-height: 19px;   
+        margin-bottom: 20px;
+    }
+
+    .imgDrawing, .imgColorPalette, .imgRuler, .imgWarehouseWithFlights {
+        height: 240px;
+    }
+
+    .serviceDescriptionLayout, 
+    .serviceDescriptionDesign, 
+    .serviceDescriptionSupervision, 
+    .serviceDescriptionEquipment {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .priceServiceDescriptionLayout,
+    .priceServiceDescriptionDesign,
+    .priceServiceDescriptionSupervision,
+    .priceServiceDescriptionEquipment {
+        margin: 5px 23px 6px 24px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .boxPriceServiceDescriptionLayout, 
+    .boxPriceServiceDescriptionDesign, 
+    .boxPriceServiceDescriptionSupervision, 
+    .boxPriceServiceDescriptionEquipment {
+        margin-top: 23px;
+        margin-left: 24px;
+    }
+
+    .orderService {   
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 37px;
+        padding-bottom: 36px;
+        border-radius: 3.8px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    /* End listServices */
 }

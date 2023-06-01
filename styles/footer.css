@@ -1,0 +1,86 @@
+.footer {
+    width: 1400px;
+    background: #121212;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.contactsFooter {
+    width: 450px;
+    margin-left: 470px;
+    margin-bottom: 87px;
+}
+
+.box {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.boxContactsAboutUs {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boxContactsAboutUs:hover{
+    opacity: 0.5;
+}
+
+.boxContactsProjects {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boxContacts:hover {
+    opacity: 0.5;
+}
+
+.boxContactsServices {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.boxContactsServices:hover {
+    opacity: 0.5;
+}
+
+.boxContactsContacts {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.boxContactsContacts:hover {
+    opacity: 0.5;
+}
+
+.box:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.linkToLayout {
+    color: #ffffff;
+    margin-left: 509px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    opacity: 0.5;
+    text-decoration: none;
+}

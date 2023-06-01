@@ -1,0 +1,49 @@
+header {
+    width: 1400px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 32.82px 125px 70px 125px;
+    box-sizing: border-box;
+}
+
+.navSection {
+    width: 1160px;
+    box-sizing: border-box;
+}
+
+.logoLink {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 553px;
+}
+
+.navLink {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navLink_end {
+    margin-right: 0px;
+}
+
+.navLink:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
