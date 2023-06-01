@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project7</title>
+
+    <title>Метрика</title>
     <link rel="stylesheet" href="styles/reset.css">
-   
+    <link rel="icon" href="resources/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Monda&display=swap" rel="stylesheet">
@@ -61,35 +62,52 @@
                 <div class="projectsInterior">
                     <div class="staircase"></div>
                     <h3 class="residentialComplex">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-                    <p class="more">Подробнее →</p>
+                    <p class="more more_end">Подробнее →</p>
                 </div> 
                 <a class="seeProjectsText" href="/">Смотреть все проекты </a>        
            </div>
 
-            <!-- <div id="services" class="listServices">
+            <div id="services" class="listServices">  
                 <h2 class="textServices">услуги</h2>
-                <div class="servicesContainer">
-                    <img src="resources/drawing.png" alt="пример дизайна">
-                    <h3 class="serviceDescriptionLayout">Планировочное решение — от 2500₽/м²</h3>
+                <div class="listServicesWrapper">
+                    <div class="servicesContainer">
+                        <div class="boxPriceServiceDescriptionLayout">
+                            <p class="priceServiceDescriptionLayout">от 2500₽/м²</p>
+                        </div>
+                        <div class="imgDrawing"></div>
+                        <h3 class="serviceDescriptionLayout">Планировочное решение</h3>
+                    </div>
+                    <div class="servicesContainer">
+                        <div class="boxPriceServiceDescriptionDesign">
+                            <p class="priceServiceDescriptionDesign">от 3000₽/м²</p>
+                        </div>
+                        <div class="imgColorPalette"></div>
+                        <h3 class="serviceDescriptionDesign">Дизайн-проект</h3>
+                    </div>
+                    <div class="servicesContainer">
+                        <div class="boxPriceServiceDescriptionSupervision">
+                            <p class="priceServiceDescriptionSupervision">от 30 000₽/мес</p>
+                        </div>
+                        <div class="imgRuler"></div>
+                        <h3 class="serviceDescriptionSupervision">Авторский надзор</h3>
+                    </div>
+                    <div class="servicesContainer">
+                        <div class="boxPriceServiceDescriptionEquipment">
+                            <p class="priceServiceDescriptionEquipment">5% от стоимости</p>
+                        </div>
+                        <div class="imgWarehouseWithFlights"></div>
+                        <h3 class="serviceDescriptionEquipment">Комплектация</h3>
+                    </div>
                 </div>
-                <div class="servicesContainer">
-                    <img src="resources/Color palette.png" alt="пример дизайна">
-                    <h3 class="serviceDescriptionDesign">Дизайн-проект — от 3000₽/м²</h3>
-                </div>
-                <div class="servicesContainer">
-                    <img src="resources/ruler.png" alt="пример дизайна">
-                    <h3 class="serviceDescriptionSupervision">Авторский надзор — от 30 000₽ в месяц</h3>
-                </div>
-                <div class="servicesContainer servicesContainer_end">
-                    <img src="resources/warehouse with flights.png" alt="пример дизайна">
-                    <h3 class="serviceDescriptionEquipment">Комплектация — 5% от стоимости спецификации</h3>
-                </div>
+                <a class="orderService" href="">Заказать услугу</a>
             </div>  
-            <div class="fullScreenImage">
+
+            <!-- <div class="fullScreenImage">
                 <div class="fullScreenImageText">
                     <h3 class="serviceDescriptionApartment ">Проект  Двухкомнатаной квартиры в ЖК Лесной Пейзаж</h3>
                 </div>
             </div>
+
             <div id="contacts" class="contactsWrapper">
                 <div class="contacts">
                     <h2 class="contactsText">контакты</h2>
@@ -106,19 +124,19 @@
         <!-- <footer class="footer">
             <div class="contactsFooter">
                 <p class="box">
-                    <a class="boxContactsAboutUs" href="">о нас</a>
+                    <a class="boxContactsAboutUs" href="#aboutUs">о нас</a>
                 </p>
                 <p class="box">
-                    <a class="boxContacts" href="">проекты</a>
+                    <a class="boxContactsProjects" href="#projects">проекты</a>
                 </p>
                 <p class="box">
-                    <a class="boxContactsServices" href="">услуги</a>
+                    <a class="boxContactsServices" href="#services">услуги</a>
                 </p>
                 <p class="box">
-                    <a class="boxContactsContacts" href="">контакты</a>
+                    <a class="boxContactsContacts" href="#contacts">контакты</a>
                 </p>
             </div>
-            <a class="linkToLayout"  href="https://www.figma.com/file/ebAlLnpSYCJcmYOiRcLziH/%F0%9F%96%A5-SD-Code-%E2%80%94-%D0%9C%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2-(Copy)?node-id=16-2&t=V9Zsr3rKlAfRoYrg-0" target="_blank">студия дизайна интерьера Метрика — 2023</a>
+            <a class="linkToLayout"  href="https://www.figma.com/file/pO3xJQIYQbIML72gL52PNF/SD-%D0%A1ode-%E2%80%94-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0?node-id=16-325&t=W4gJQYFn0hj1F0Xy-0" target="_blank">студия дизайна интерьера Метрика — 2023</a>
         </footer> -->
 </body>
 </html>
