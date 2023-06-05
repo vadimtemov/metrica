@@ -424,15 +424,15 @@ h1 {
     }
     
     .imageSofa {
-        background-image: url('/resources/interior\ sofa\ mobile.png');
+        background-image: url('../resources/interior\ sofa\ mobile.png');
     }
 
     .imageTv {
-        background-image: url('/resources/interior\ tv\ mobile.png');
+        background-image: url('../resources/interior\ tv\ mobile.png');
     }
 
     .staircase {
-        background-image: url('/resources/interior\ staircase\ mobile.png');
+        background-image: url('../resources/interior\ staircase\ mobile.png');
     }
 
     .interiorPicture {
