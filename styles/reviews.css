@@ -1,0 +1,44 @@
+.reviews {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 150px 167px 150px 124px;
+}
+
+.reviewsTitle {
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.containerReviews {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.colReviews {
+    width: calc(50% - 25px);
+}
+
+.colReviews_big {
+    width: 861px;
+}
+
+.nameReview {
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    padding-bottom: 14px;  
+}
+
+.boxReviews {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
