@@ -1,6 +1,8 @@
 @import "/styles/header.css";
-@import "../styles/listServices.css";
+@import "/styles/listServices.css";
+@import "/styles/reviews.css";
 @import "/styles/footer.css";
+
 
 html{
     scroll-behavior: smooth;
@@ -356,6 +358,38 @@ h1 {
 
     /* End listServices */
 
+    /* reviews */
+
+    .reviews {
+        width: 960px;
+        padding: 120px 15px 120px 16px;
+    }
+
+    .containerReviews {
+        padding-bottom: 80px;
+    }
+
+    .colReviews {
+        width: calc(50% - 5px);
+    }
+
+    .colReviews_big {
+        width: 694px;
+    }
+
+    .nameReview {
+        font-size: 35px;
+        line-height: 48px;
+        padding-bottom: 25px;  
+    }
+
+    .boxReviews {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    /* End reviews */
+
 }
 
 /* Адаптив для телефона */
@@ -424,15 +458,15 @@ h1 {
     }
     
     .imageSofa {
-        background-image: url('../resources/interior\ sofa\ mobile.png');
+        background-image: url('/resources/interior\ sofa\ mobile.png');
     }
 
     .imageTv {
-        background-image: url('../resources/interior\ tv\ mobile.png');
+        background-image: url('/resources/interior\ tv\ mobile.png');
     }
 
     .staircase {
-        background-image: url('../resources/interior\ staircase\ mobile.png');
+        background-image: url('/resources/interior\ staircase\ mobile.png');
     }
 
     .interiorPicture {
@@ -538,4 +572,40 @@ h1 {
     }
 
     /* End listServices */
+
+    /* reviews */
+
+    .reviews {
+        width: 375px;
+        padding: 80px 13px 0px 13px;
+    }
+
+    .reviewsTitle {
+        padding-bottom: 22px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .containerReviews {
+        display: block;
+        padding-bottom: 0px;
+    }
+
+    .colReviews {
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    .nameReview {
+        font-size: 25px;
+        line-height: 34px;
+        padding-bottom: 10px;  
+    }
+
+    .boxReviews {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* End reviews */
 }
