@@ -1,7 +1,8 @@
 @import "/styles/header.css";
-@import "../styles/listServices.css";
-@import "../styles/reviews.css";
+@import "/styles/listServices.css";
+@import "/styles/reviews.css";
 @import "/styles/footer.css";
+@import "/styles/gallery.css";
 
 
 html{
@@ -163,32 +164,6 @@ h1 {
     color:#ffffff;
 }
 
-
-.fullScreenImage {
-    position: relative;
-    margin: 0 auto;
-    width: 1400px;
-    height: 717px;
-    background-image: url('/resources/interior\ bed.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.fullScreenImageText {
-    position: absolute;
-    width: 430px;
-    height: 82px;
-    left: 125px;
-    bottom: 60px;
-}
-
-.serviceDescriptionApartment {
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-}
 
 .contactsWrapper {
     position: relative;
