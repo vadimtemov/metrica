@@ -1,8 +1,8 @@
-@import "/styles/header.css";
-@import "/styles/listServices.css";
-@import "/styles/reviews.css";
-@import "/styles/footer.css";
-@import "/styles/gallery.css";
+@import url(header.css);
+@import url(listServices.css);
+@import url(reviews.css);
+@import url(footer.css);
+@import url(gallery.css);
 
 
 html{
